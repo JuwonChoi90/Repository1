@@ -1,0 +1,269 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.outerbox {
+    width: 540px;
+    height: 960px;
+    left: 690px;
+    top: 118px;
+
+    background: #FFFFFF;
+    border: 1px solid #AACDFF;
+    box-shadow: 7px 7px 39px rgba(0, 104, 255, 0.25);
+    border-radius: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.titlebox {
+    width: 380px;
+    height: 47px;
+    left: 768px;
+    top: 178px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+    font-family: 'Noto Sans CJK KR';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 47px;
+
+    color: #0068FF;
+}
+
+.emailbox {
+    width: 380px;
+    height: 60px;
+    left: 768px;
+    top: 285px;
+
+    background: #FFFFFF;
+    border: 1px solid #0068FF;
+    border-radius: 7px;
+}
+
+.namebox {
+    width: 380px;
+    height: 60px;
+    left: 768px;
+    top: 285px;
+
+    background: #FFFFFF;
+    border: 1px solid #0068FF;
+    border-radius: 7px;
+}
+
+.pw1box {
+    width: 380px;
+    height: 60px;
+    left: 768px;
+    top: 445px;
+
+    background: #FFFFFF;
+    border: 1px solid #D2D2D2;
+    border-radius: 7px;
+}
+
+.pw2box {
+    width: 380px;
+    height: 60px;
+    left: 768px;
+    top: 525px;
+
+    background: #FFFFFF;
+    border: 1px solid #D2D2D2;
+    border-radius: 7px;
+}
+
+.phonebox {
+    width: 380px;
+    height: 40px;
+    left: 768px;
+    top: 525px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    background: #FFFFFF;
+    border: none;
+    border-radius: 7px;
+}
+
+.phone {
+    width: 100px;
+    height: 40px;
+    left: 768px;
+    top: 605px;
+
+    background: #FFFFFF;
+    border: 1px solid #D2D2D2;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.confirmbox {
+    width: 380px;
+    height: 40px;
+    left: 768px;
+    top: 525px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+    background: #FFFFFF;
+    border: none;
+    border-radius: 7px;
+    color: #0068FF; 
+}
+
+.buttonbox1 {
+    width: 120px;
+    height: 40px;
+    left: 1028px;
+    top: 665px;
+    margin-left : 20px;
+
+    /* background: #FFFFFF; */
+    border: 1px solid #D2D2D2;
+    border-radius: 7px;
+
+    font-family: 'Noto Sans CJK KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    /* color: #0068FF;  */
+    cursor: pointer;
+}
+
+.buttonbox1:hover{
+    background-color: #0068FF;
+    color: white;
+}
+
+.confirmedbox {
+    width: 380px;
+    height: 40px;
+    left: 768px;
+    top: 525px;
+
+    background: #FFFFFF;
+    border: none;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    color: #0068FF; 
+}
+
+.localbox {
+    width: 380px;
+    height: 60px;
+    left: 768px;
+    top: 525px;
+
+    background: #FFFFFF;
+    border: 1px solid #D2D2D2;
+    border-radius: 7px;
+    
+    font-family: 'Noto Sans CJK KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #797979;
+}
+
+.local {
+    width: 320.58px;
+    height: 24px;
+    left: 782.68px;
+    top: 303px;
+
+    font-family: 'Noto Sans CJK KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    margin: 18px 102.75px 18px 14.66px;
+    border: none;
+    color: #797979;
+}
+
+.inform {
+    width: 262.58px;
+    height: 24px;
+    left: 782.68px;
+    top: 303px;
+
+    font-family: 'Noto Sans CJK KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    margin: 18px 102.75px 18px 14.66px;
+    border: none;
+    color: #797979;
+}
+
+.finish {
+    width: 380px;
+    height: 75px;
+    left: 768px;
+    top: 445px;
+
+    /* background: #FFFFFF; */
+    border: 1px solid #0068ff;
+    border-radius: 7px;
+
+    cursor: pointer;
+    font-family: 'Noto Sans CJK KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* color: #0068FF; */
+}
+
+.finish:hover {
+    background-color: #0068FF;
+    color: white;   
+}
+
+
+.genderbox {
+    width: 380px;
+    height: 50px;
+    left: 768px;
+    top: 525px;
+
+    background: #FFFFFF;
+    border-bottom: 1px solid #D2D2D2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.radio {
+    color: black;
+    width: 50px;
+    height: 23px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+

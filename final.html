@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>코드캠프 회원가입</title>
+    <link href="./final.css" rel="stylesheet">
+    <script src="./final.js"></script>
+</head>
+<body>
+    <div class="background">
+        <div class="outerbox">
+            <div class="titlebox">코드캠프 회원가입</div>
+            <div class="emailbox">
+                <input class="inform" type="text" placeholder="이메일을 입력해 주세요">
+            </div>
+            <div class="namebox">
+                <input class="inform" type="text" placeholder="이름을 입력해 주세요">
+            </div>
+            <div class="pw1box">
+                <input class="inform" type="password" placeholder="비밀번호를 입력해 주세요">
+            </div>
+            <div class="pw2box">
+                <input class="inform" type="password" placeholder="비밀번호를 다시 입력해 주세요">
+            </div>
+            <div class="phonebox">
+                <input class="phone" id="phone1" maxlength="3" oninput="changeFocus1()">-
+                <input class="phone" id="phone2" maxlength="4" oninput="changeFocus2()">-
+                <input class="phone" id="phone3" maxlength="4" oninput="confirm()">
+            </div>
+            <div class="confirmbox">
+                <span id="number">000000</span>
+                <button disabled id="confirmbtn" class="buttonbox1" onclick="randomnum()">인증번호 전송</button>
+            </div>
+            <div class="confirmedbox">
+                <span id="time">3:00</span>
+                <button disabled id="confirmedbtn" class="buttonbox1" onclick="complete()">인증완료</button>
+            </div>
+            <div class="localbox">
+                <select class="local">
+                    <option selected="true" disabled>지역을 선택하세요</option>
+                    <option>서울</option>
+                    <option>경기</option>
+                    <option>인천</option>
+                </select>
+            </div>
+            <div class="genderbox">
+                <span class="radio">
+                    <input name="gender" type="radio" value="여성">여성
+                </span>
+                <span class="radio">
+                    <input name="gender" type="radio" value="남성">남성
+                </span>
+            </div>
+            <button disabled id="finished" class="finish"> 가입하기</button>
+        </div>
+    </div>
+</body>
+</html>
